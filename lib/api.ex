@@ -11,9 +11,9 @@ defmodule Api do
     %{ "respuestas": "files/#{repository}/#{element}App.json"
     |> Api.read_json
     |> Api.bayes_classify(query)
-    |> Enum.reject(fn({id, probability}) -> probability == 0 end)
-    |> Enum.sort_by(fn({id, probability}) -> probability end, :desc)
-    |> Enum.map(fn({id, probability}) -> id end)
+    |> Enum.reject(fn({_id, probability}) -> probability == 0 end)
+    |> Enum.sort_by(fn({_id, probability}) -> probability end, :desc)
+    |> Enum.map(fn({id, _probability}) -> id end)
     }
   end
 
