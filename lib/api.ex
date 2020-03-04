@@ -12,7 +12,7 @@ defmodule Api do
             |> String.replace(~r/^"(.*)"$/, "\\1")
             |> String.replace(~r/^'(.*)'$/, "\\1")
 
-    %{ "respuestas": "files/#{repository}/#{element}App.json"
+    %{ respuestas: "files/#{repository}/#{element}App.json"
     |> Api.read_json
     |> Api.bayes_classify(query)
     |> Enum.reject(fn({_id, probability}) -> probability == 0 end)
