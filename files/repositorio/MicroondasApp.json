@@ -1,0 +1,144 @@
+{
+  "encabezados": [
+    {
+      "id": 1,
+      "titulo": "Cuadro de mandos",
+      "pasosEncabezado": [
+        {
+          "paso": "1. Tecla de cocinado",
+          "objetosEnfatizar": [
+            "boton_01"
+          ]
+        },
+        {
+          "paso": "2. Descongelación por peso/tiempo",
+          "objetosEnfatizar": [
+            "boton_02"
+          ]
+        },
+        {
+          "paso": "3. Reloj/temporizador",
+          "objetosEnfatizar": [
+            "boton_04"
+          ]
+        },
+        {
+          "paso": "4. Cancelar/parar",
+          "objetosEnfatizar": [
+            "boton_05"
+          ]
+        },
+        {
+          "paso": "5. Inicio/30 segundos",
+          "objetosEnfatizar": [
+            "boton_03"
+          ]
+        },
+        {
+          "paso": "6. Mando selector",
+          "objetosEnfatizar": [
+            "rueda"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Función grill",
+      "pasosEncabezado": [
+        {
+          "paso": "1. Pulse el botón \"Mode\", en la pantalla se mostrará \"P100\".",
+          "objetosEnfatizar": [
+            "boton_01"
+          ]
+        },
+        {
+          "paso": "2. Pulse el botón \"Mode\" varias veces o gire el mando para seleccionar la función al grill.",
+          "objetosEnfatizar": [
+            "boton_01"
+          ]
+        },
+        {
+          "paso": "3. Cuando en la pantalla aparezca \"G\" pulse el boton \"+30 sec\" para confirmar la selección.",
+          "objetosEnfatizar": [
+            "boton_03"
+          ]
+        },
+        {
+          "paso": "4. Gire el mando para ajustar el tiempo de cocción. El tiempo de cocción debe estar comprendido entre 0:05 y 95:00.",
+          "objetosEnfatizar": [
+            "rueda"
+          ]
+        },
+        {
+          "paso": "5. Pulse el botón \"+30 sec\" para comenzar a cocinar.",
+          "objetosEnfatizar": [
+            "boton_03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Usar temporizador",
+      "pasosEncabezado": [
+        {
+          "paso": "1. Pulse \"Reloj temporizador\" dos veces, la pantalla mostrará 0:00.",
+          "objetosEnfatizar": [
+            "boton_04"
+          ]
+        },
+        {
+          "paso": "2. Pulse el botón \"+30 sec\" para confirmar.",
+          "objetosEnfatizar": [
+            "boton_03"
+          ]
+        },
+        {
+          "paso": "3. Cuando se alcanza el tiempo programado, el indicador del temporizador se apagará.",
+          "objetosEnfatizar": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Ajuste del reloj",
+      "pasosEncabezado": [
+        {
+          "paso": "1. Al conectar el horno a la red de alimentación en la pantalla se mostrará \"0:00\" y oirá un pitido.",
+          "objetosEnfatizar": []
+        },
+        {
+          "paso": "2. Pulse \"Reloj y temporizador\", la cifra de las horas comenzará a parpadear.",
+          "objetosEnfatizar": [
+            "boton_04"
+          ]
+        },
+        {
+          "paso": "3. Gire el mando para ajustar la cifra de las horas, la hora introducida debe estar cimpendida entre 0 y 23.",
+          "objetosEnfatizar": [
+            "rueda"
+          ]
+        },
+        {
+          "paso": "4. Pulse el botón \"Reloj temporizador\", la cifra de los minutos empezará a parpadear.",
+          "objetosEnfatizar": [
+            "boton_04"
+          ]
+        },
+        {
+          "paso": "5. Gire el mando para ajustar la cifra de los minutos. La cifra introducida debe estar comprendida entre 0 y 59.",
+          "objetosEnfatizar": [
+            "rueda"
+          ]
+        },
+        {
+          "paso": "6. Pulse el boton \"Reloj temporizador\" para finalizar el ajuste del reloj. El indicador : comenzará a parpadear.",
+          "objetosEnfatizar": [
+            "boton_04"
+          ]
+        }
+      ]
+    }
+  ]
+}
