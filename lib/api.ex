@@ -8,6 +8,10 @@ defmodule Api do
   """
 
   def get_anwsers(repository, element, query) do
+    query = query
+            |> String.replace(~r/^"(.*)"$/, "\\1")
+            |> String.replace(~r/^'(.*)'$/, "\\1")
+
     %{ "respuestas": "files/#{repository}/#{element}App.json"
     |> Api.read_json
     |> Api.bayes_classify(query)
